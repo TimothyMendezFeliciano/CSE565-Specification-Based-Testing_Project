@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Jar Files and Project1Script">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CSE565P1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/project1GUI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

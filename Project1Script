@@ -1,0 +1,65 @@
+#!/bin/bash
+
+#Example of test case
+#java -jar CSE565P1.jar Peter 24 Returning Silver Spring Electronics 6
+#ADD TEST CASES BELOW
+#java -jar CSE565P1.jar Penny 44 Returning Bronze Winter Unknown 2
+#java -jar CSE565P1.jar Callebrese 96 Returning Bronze Winter Electronics 7
+#java -jar CSE565P1.jar Robert 43 Returning Bronze Spring Unknown 5
+#java -jar CSE565P1.jar Penny 68 Returning Bronze Spring Electronics 8
+#java -jar CSE565P1.jar Callebrese 32 Returning Bronze Summer Unknown 5
+#java -jar CSE565P1.jar Robert 51 Returning Bronze Summer Electronics 5
+#java -jar CSE565P1.jar Penny 91 Returning Bronze Fall Unknown 5
+#java -jar CSE565P1.jar Callebrese 18 Returning Bronze Fall Electronics 4
+#java -jar CSE565P1.jar Robert 21 Returning Silver Winter Unknown 6
+#java -jar CSE565P1.jar Penny 40 Returning Silver Winter Electronics 8
+#java -jar CSE565P1.jar Callebrese 69 Returning Silver Spring Unknown 1
+#java -jar CSE565P1.jar Robert 98 Returning Silver Spring Electronics 4
+#java -jar CSE565P1.jar Penny 67 Returning Silver Summer Unknown 8
+#java -jar CSE565P1.jar Callebrese 75 Returning Silver Summer Electronics 6
+#java -jar CSE565P1.jar Robert 73 Returning Silver Fall Unknown 10
+#java -jar CSE565P1.jar Penny 81 Returning Silver Fall Electronics 4
+#java -jar CSE565P1.jar Callebrese 46 Returning Gold Winter Unknown 6
+#java -jar CSE565P1.jar Robert 40 Returning Gold Winter Electronics 1
+#java -jar CSE565P1.jar Penny 42 Returning Gold Spring Unknown 7
+#java -jar CSE565P1.jar Callebrese 56 Returning Gold Spring Electronics 7
+#java -jar CSE565P1.jar Robert 40 Returning Gold Summer Unknown 4
+#java -jar CSE565P1.jar Penny 90 Returning Gold Summer Electronics 2
+#java -jar CSE565P1.jar Callebrese 84 Returning Gold Fall Unknown 7
+java -jar CSE565P1.jar Robert 19 Returning Gold Fall Electronics 4
+#java -jar CSE565P1.jar Penny 95 New Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Callebrese 23 New Bronze Winter Electronics 7
+#java -jar CSE565P1.jar Robert 72 New Bronze Spring Unknown 10
+#java -jar CSE565P1.jar Penny 47 New Bronze Spring Electronics 4
+#java -jar CSE565P1.jar Callebrese 67 New Bronze Summer Unknown 6
+#java -jar CSE565P1.jar Robert 64 New Bronze Summer Electronics 1
+#java -jar CSE565P1.jar Penny 63 New Bronze Fall Unknown 7
+#java -jar CSE565P1.jar Callebrese 51 New Bronze Fall Electronics 9
+#java -jar CSE565P1.jar Robert 20 New Silver Winter Unknown 5
+#java -jar CSE565P1.jar Penny 71 New Silver Winter Electronics 7
+#java -jar CSE565P1.jar Callebrese 59 New Silver Spring Unknown 9
+#java -jar CSE565P1.jar Robert 34 New Silver Spring Electronics 5
+#java -jar CSE565P1.jar Penny 55 New Silver Summer Unknown 10
+#java -jar CSE565P1.jar Callebrese 68 New Silver Summer Electronics 6
+#java -jar CSE565P1.jar Robert 61 New Silver Fall Unknown 1
+#java -jar CSE565P1.jar Penny 76 New Silver Fall Electronics 10
+#java -jar CSE565P1.jar Callebrese 94 New Gold Winter Unknown 1
+#java -jar CSE565P1.jar Robert 40 New Gold Winter Electronics 1
+#java -jar CSE565P1.jar Penny 89 New Gold Spring Unknown 9
+#java -jar CSE565P1.jar Callebrese 31 New Gold Spring Electronics 7
+#java -jar CSE565P1.jar Robert 45 New Gold Summer Unknown 3
+#java -jar CSE565P1.jar Penny 90 New Gold Summer Electronics 8
+#java -jar CSE565P1.jar Callebrese 64 New Gold Fall Unknown 6
+#java -jar CSE565P1.jar Robert 79 New Gold Fall Electronics 6
+#
+##Now we test for invalid
+#java -jar CSE565P1.jar Mike 20 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Huckleberry 20 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar J0shua 20 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Pen-ny 20 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar _Robert 20 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Tere!a 20 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Robert 17 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Robert 256 Returning Bronze Winter Unknown 5
+#java -jar CSE565P1.jar Robert 20 Returning Bronze Winter Unknown 0
+#java -jar CSE565P1.jar Robert 20 Returning Bronze Winter Unknown 11
